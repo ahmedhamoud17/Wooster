@@ -1,0 +1,60 @@
+#landing{
+    background-image: url('../images/landing.jpg');
+    background-size: 100% 100%;
+}
+
+.ahmed{
+    font-size: 50px;
+}
+
+.play i{
+    cursor: pointer;
+}
+
+#sub input::placeholder{
+    color: #e8e8e8;
+}
+
+.social i{
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+
+@media (min-width : 0px) and (max-width: 768px){
+    .ahmed{
+        font-size: 30px;
+    }
+
+    .hoda{
+        font-size: 20px;
+    }
+
+    .zorar{
+        margin-top: 15px;
+    }
+
+    .writer{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column; 
+    }
+
+  
+
+
+
+
+}
+
+@media (min-width : 768px) and (max-width: 992px){
+
+    .down{
+        text-align: start;
+    }
+    
+}
